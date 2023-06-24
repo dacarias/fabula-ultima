@@ -3,6 +3,6 @@
     
     },
     "Item":{
-        
-    }
+        "types":["weapon"]
+    }    
 }
