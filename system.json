@@ -1,0 +1,26 @@
+{
+    "id": "fabula-ultima",
+    "version": "0.1.0",
+    "title": "Fabula Ultima",
+    "url": "https://github.com/dacarias/fabula-ultima/",
+    "description": "Unofficial Fabula Ultima system for FoundryVTT.",
+    "authors": [
+      {
+        "name": "Daniel Carias",
+        "url": "https://github.com/dacarias"
+      }
+    ],
+    "esmodules": ["module/fabult.js"],
+    "styles": ["styles/fabult.css"],
+    "packs": [],
+    "languages": [],
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    },
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "manifest": "",
+    "download": ""
+  }
+  
