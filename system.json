@@ -13,7 +13,13 @@
     "esmodules": ["module/fabult.js"],
     "styles": ["styles/fabult.css"],
     "packs": [],
-    "languages": [],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
     "compatibility": {
       "minimum": "10",
       "verified": "11"
