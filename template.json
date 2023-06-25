@@ -24,6 +24,15 @@
                 "itemDescription"
             ]
         },
+        "arcanum": {
+            "templates": [
+                "itemDescription"
+            ],
+            "domains": "",
+            "merge": "",
+            "dismis": ""
+
+        },
         "armor": {
             "templates": [
                 "itemDescription"
@@ -67,7 +76,7 @@
             "acc2": "MIG",
             "damage": "HR + 6 physical",
             "twoHanded": false,
-            "Ranged": false,
+            "ranged": false,
             "quality": "No Quality"
         }
     }
