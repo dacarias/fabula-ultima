@@ -1,3 +1,56 @@
 {
-    
+    "fabult": {
+        "area": {
+            "individual": "Individual",
+            "small": "Small",
+            "medium": "Medium",
+            "large": "Large",
+            "seeBelow": "See below"
+        },
+        "armor": {
+            "armor": "Armor",
+            "shield": "Shield"
+        },
+        "attributes": {
+            "dex": "Dexterity",
+            "ins": "Insight",
+            "mig": "Might",
+            "wlp": "Willpower"
+        },
+        "damageType": {
+            "physical": "Physical",
+            "air": "Air",
+            "bolt": "Bolt",
+            "dark": "Dark",
+            "earth": "Earth",
+            "fire": "Fire",
+            "ice": "Ice",
+            "light": "Light",
+            "poison": "Poison"
+        },
+        "status": {
+            "dazed": "Dazed",
+            "enraged": "Enraged",
+            "poisoned": "Poisoned",
+            "shaken": "Shaken",
+            "slow": "Slow",
+            "weak": "Weak"
+        },
+        "transportPath": {
+            "terrestrial": "Terrestrial",
+            "aquatic": "Aquatic",
+            "submarine": "Submarine",
+            "flying": "Flying"
+        },
+        "transportType":{
+            "mount": "Mount",
+            "vehicles": "Vehicles"
+        },
+        "quality": {
+            "noQuality": "No Quality",
+            "minor": "Minor",
+            "medium": "Medium",
+            "major": "Major"
+        }
+    }
 }
