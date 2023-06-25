@@ -38,12 +38,12 @@ fabult.itemFields = {
     "path": "fabult.itemFields.path",
     "potency": "fabult.itemFields.potency",
     "progressRequired": "fabult.itemFields.progressRequired",
-            "quality": "fabult.itemFields.quality",
-            "ranged": "fabult.itemFields.ranged",
-            "skillLevel": "fabult.itemFields.skillLevel",
-            "twoHanded": "fabult.itemFields.twoHanded",
-            "type": "fabult.itemFields.type",
-            "use": "fabult.itemFields.use"
+    "quality": "fabult.itemFields.quality",
+    "ranged": "fabult.itemFields.ranged",
+    "skillLevel": "fabult.itemFields.skillLevel",
+    "twoHanded": "fabult.itemFields.twoHanded",
+    "type": "fabult.itemFields.type",
+    "use": "fabult.itemFields.use"
 }
 
 fabult.status = {
