@@ -39,7 +39,9 @@
             "type": "armor",
             "quality": "No Quality",
             "defense": "DEX size",
+            "defBonus": 0,
             "mDefense": "INS size",
+            "mDefBonus": 0,
             "initiative": 0
         },
         "consumable": {
@@ -86,7 +88,9 @@
             ],
             "acc1": "MIG",
             "acc2": "MIG",
-            "damage": "HR + 6 physical",
+            "damage": "HR",
+            "damageBonus": 0,
+            "damageType": "",
             "twoHanded": false,
             "ranged": false,
             "quality": "No Quality"
