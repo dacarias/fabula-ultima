@@ -86,13 +86,12 @@
             "templates": [
                 "itemDescription"
             ],
+            "weapon_cost": 0,
             "acc1": "MIG",
             "acc2": "MIG",
-            "damage": "HR",
-            "damageBonus": 0,
-            "damageType": "",
+            "damage": "HR + 6 physical",
             "twoHanded": false,
-            "ranged": false,
+            "Ranged": false,
             "quality": "No Quality"
         }
     }
