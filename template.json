@@ -4,14 +4,14 @@
     },
     "Item": {
         "types": [
-            "weapon",
-            "armor",
             "accessory",
+            "arcanum",
+            "armor",
+            "consumable",
             "project",
             "skill",
             "spell",
-            "arcanum",
-            "consumable"
+            "weapon"
         ],
         "templates": {
             "itemDescription": {
