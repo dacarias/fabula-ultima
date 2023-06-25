@@ -42,6 +42,10 @@
             "mDefense": "INS size",
             "initiative": 0
         },
+        "consumable": {
+            "ipCost": 0,
+            "effect": ""
+        },
         "project": {
             "templates": [
                 "itemDescription"
