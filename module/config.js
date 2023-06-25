@@ -19,6 +19,33 @@ fabult.attributes = {
     "wlp": "fabult.attributes.wlp"
 }
 
+fabult.damageAffinities = {
+    vulnerability: "fabult.damageAffinities.vulnerability",
+    resistance: "fabult.damageAffinities.resistance",
+    immunity: "fabult.damageAffinities.immunity",
+    absorption: "fabult.damageAffinities.absorption"
+}
+
+fabult.itemFields = {
+    "acc1": "fabult.itemFields.acc1",
+    "acc2": "fabult.itemFields.acc2",
+    "area": "fabult.itemFields.area",
+    "damage": "fabult.itemFields.damage",
+    "defense": "fabult.itemFields.defense",
+    "flaw": "fabult.itemFields.flaw",
+    "mDefense": "fabult.itemFields.mDefense",
+    "passengers": "fabult.itemFields.passengers",
+    "path": "fabult.itemFields.path",
+    "potency": "fabult.itemFields.potency",
+    "progressRequired": "fabult.itemFields.progressRequired",
+            "quality": "fabult.itemFields.quality",
+            "ranged": "fabult.itemFields.ranged",
+            "skillLevel": "fabult.itemFields.skillLevel",
+            "twoHanded": "fabult.itemFields.twoHanded",
+            "type": "fabult.itemFields.type",
+            "use": "fabult.itemFields.use"
+}
+
 fabult.status = {
     "dazed": "fabult.status.dazed",
     "enraged": "fabult.status.enraged",
@@ -33,11 +60,4 @@ fabult.quality = {
     "minor": "fabult.quality.minor",
     "medium": "fabult.quality.medium",
     "major": "fabult.quality.major"
-}
-
-fabult.damageAffinities = {
-    vulnerability: "fabult.damageAffinities.vulnerability",
-    resistance: "fabult.damageAffinities.resistance",
-    immunity: "fabult.damageAffinities.immunity",
-    absorption: "fabult.damageAffinities.absorption"
 }

@@ -29,6 +29,25 @@
             "light": "Light",
             "poison": "Poison"
         },
+        "itemFields": {
+            "acc1": "Accuracy",
+            "acc2": "Accuracy",
+            "area": "Area",
+            "damage": "Weapon Damage",
+            "defense": "Defense",
+            "flaw": "Flaw",
+            "mDefense": "Magical Defense",
+            "passengers": "Passengers",
+            "path": "Path",
+            "potency": "Potency",
+            "progressRequired": "Progress Required",
+            "quality": "Quality",
+            "ranged": "Ranged",
+            "skillLevel": "Skill Level",
+            "twoHanded": "Two-Handed",
+            "type": "Type",
+            "use": "Use"
+        },
         "status": {
             "dazed": "Dazed",
             "enraged": "Enraged",
