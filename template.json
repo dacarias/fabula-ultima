@@ -19,6 +19,11 @@
                 "description": ""
             }
         },
+        "accessory": {
+            "templates": [
+                "itemDescription"
+            ]
+        },
         "armor": {
             "templates": [
                 "itemDescription"
@@ -35,7 +40,15 @@
             ],
             "potency": "major",
             "area": "individual",
-            "use": "permanent"
+            "use": "permanent",
+            "progressRequired": 10,
+            "flaw": false
+        },
+        "skill": {
+            "templates": [
+                "itemDescription"
+            ],
+            "skillLevel": 1
         },
         "transport": {
             "templates": [
