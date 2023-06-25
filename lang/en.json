@@ -12,14 +12,14 @@
             "shield": "Shield"
         },
         "attributes": {
-            "dex": "Dexterity",
-            "ins": "Insight",
-            "mig": "Might",
-            "wlp": "Willpower",
-            "dexAbbr": "Dex",
-            "insAbbr": "Ins",
-            "migAbbr": "Mig",
-            "wlpAbbr": "Wlp"
+            "dexterity": "Dexterity",
+            "insight": "Insight",
+            "might": "Might",
+            "willpower": "Willpower",
+            "dex": "DEX",
+            "ins": "INS",
+            "mig": "MIG",
+            "wlp": "WLP"
         },
         "damageTypes": {
             "none": "",

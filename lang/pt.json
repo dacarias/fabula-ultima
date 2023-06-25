@@ -5,17 +5,21 @@
             "small": "Pequena",
             "medium": "Média",
             "large": "Grande",
-            "seeBelow": "Ver abaixo"
+            "seeBelow": "Ver descrição"
         },
         "armor": {
             "armor": "Armadura",
             "shield": "Escudo"
         },
         "attributes": {
-            "dex": "Destreza",
-            "ins": "Intuição",
-            "mig": "Poder",
-            "wlp": "Vontade"
+            "dexterity": "Destreza",
+            "insight": "Intuição",
+            "might": "Poder",
+            "willpower": "Vontade",
+            "dex": "DES",
+            "ins": "INT",
+            "mig": "POD",
+            "wlp": "VTD"
         },
         "damageTypes": {
             "none": "",
@@ -34,6 +38,7 @@
             "acc1": "Acurácia",
             "acc2": "Acurácia",
             "area": "Área",
+            "cost": "Custo",
             "damage": "Dano",
             "defense": "Defesa",
             "effect": "Efeito",
