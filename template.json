@@ -30,8 +30,7 @@
             ],
             "domains": "",
             "merge": "",
-            "dismis": ""
-
+            "dismiss": ""
         },
         "armor": {
             "templates": [
@@ -58,6 +57,15 @@
                 "itemDescription"
             ],
             "skillLevel": 1
+        },
+        "spell": {
+            "templates": [
+                "itemDescription"
+            ],
+            "offensiveSpell": false,
+            "mp": 0,
+            "target": "",
+            "duration": ""
         },
         "transport": {
             "templates": [
