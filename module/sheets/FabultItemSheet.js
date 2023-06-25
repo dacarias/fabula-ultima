@@ -3,19 +3,13 @@ export default class FabultItemSheet extends ItemSheet {
         return `systems/fabula-ultima/templates/sheets/${this.item.type}-sheet.html`;
     }
 
-    getData() {
-        const baseData = super.getData();
-
-        let sheetData = {
-            owner: this.item.isOwner,
-            editable: this.isEditable,
-            item: baseData.item,
-            data: baseData.item.data.data,
-            config: CONFIG.fabult
-        };
-
-        console.log(this);
-
-        return sheetData;
+    async getData(options) {
+        const context = await super.getData(options);
+        context.systemData = context.data.system;
+        context.descriptionHTML = await TextEditor.enrichHTML(context.systemData.description, {
+            secrets: this.document.isOwner,
+            async: true
+        });
+        return context;
     }
 }
