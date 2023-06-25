@@ -10,6 +10,7 @@ export default class FabultItemSheet extends ItemSheet {
             secrets: this.document.isOwner,
             async: true
         });
+        context.config = CONFIG.fabult;
         return context;
     }
 }
