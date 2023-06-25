@@ -50,11 +50,15 @@
             "potency": "Potência",
             "progressRequired": "Progresso Exigido",
             "quality": "Qualidade",
-            "ranged": "Ranged",
+            "range": "Distância",
             "skillLevel": "Nível da Habilidade",
             "twoHanded": "Duas mãos",
             "type": "Tipo",
             "use": "Uso"
+        },
+        "range": {
+            "melee": "Curta Distância",
+            "ranged": "Longa Distância"
         },
         "status": {
             "dazed": "Confuso",

@@ -6,14 +6,16 @@
     <div>
         <table>
             <tr>
-                <th style="width: 20%;">{{localize "fabult.itemFields.cost"}}</th>
-                <th style="width: 40%;">{{localize "fabult.itemFields.acc1"}}</th>
-                <th style="width: 40%;">{{localize "fabult.itemFields.damage"}}</th>
+                <th>{{localize "fabult.itemFields.cost"}}</th>
+                <th>{{localize "fabult.itemFields.acc1"}}</th>
+                <th>{{localize "fabult.itemFields.damage"}}</th>
+                <th>{{localize "fabult.itemFields.twoHanded"}}</th>
+                <th>{{localize "fabult.itemFields.range"}}</th>
             </tr>
             <tr>
-                <td style="width: 20%;"><input type="text" name="item.system.cost" value="{{item.system.cost}}" data-dtype="Number" />
-                <td style="width: 40%;">
-                    <select name="item.system.acc1">
+                <td><input type="text" name="item.cost" value="{{item.system.cost}}" data-dtype="Number" />
+                <td style="text-align:center;">
+                    <select name="item.acc1">
                         {{#select item.system.acc1}}
                         {{#each config.attributes as |name type|}}
                         <option value="{{type}}">{{localize name}}</option>
@@ -21,7 +23,7 @@
                         {{/select}}
                     </select>
                     +
-                    <select name="item.system.acc2">
+                    <select name="item.acc2">
                         {{#select item.system.acc2}}
                         {{#each config.attributes as |name type|}}
                         <option value="{{type}}">{{localize name}}</option>
@@ -29,11 +31,20 @@
                         {{/select}}
                     </select>
                     +
-                    <input type="text" style="width: 20%;" name="item.system.bonus" value="{{item.system.bonus}}" data-dtype="Number" />
+                    <input style="width:20%;" type="text" name="item-accBonus" value="{{item.system.accBonus}}" data-dtype="Number" />
                 </td>
-                <td style="width: 40%;"><input type="text" name="item.system.damage" value="{{item.system.damage}}" data-dtype="Number" />
+                <td><input type="text" name="item.damage" value="{{item.system.damage}}" data-dtype="Number" />
+                <td style="text-align:center;"><input name="item.twoHanded" type="checkbox" {{checked item.system.twoHanded}} />
+                <td><select name="item.range">
+                    {{#select item.system.range}}
+                    {{#each config.range as |name type|}}
+                    <option value="{{type}}">{{localize name}}</option>
+                    {{/each}}
+                    {{/select}}
+                </select>
+                </td>
             </tr>
         </table>
-        <textarea name="data.description">{{data.description}}</textarea>
+        <textarea name="item.description">{{item.system.description}}</textarea>
     </div>
 </form>

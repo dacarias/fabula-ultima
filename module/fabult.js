@@ -7,5 +7,5 @@ Hooks.once("init", function () {
     CONFIG.fabult = fabult;
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("fabult", FabultItemSheet, { makedefault:true });
+    Items.registerSheet("fabult", FabultItemSheet, { makeDefault: true });
 });

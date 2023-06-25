@@ -50,11 +50,15 @@
             "potency": "Potency",
             "progressRequired": "Progress Required",
             "quality": "Quality",
-            "ranged": "Ranged",
+            "range": "Range",
             "skillLevel": "Skill Level",
             "twoHanded": "Two-Handed",
             "type": "Type",
             "use": "Use"
+        },
+        "range": {
+            "melee": "Melee",
+            "ranged": "Ranged"
         },
         "status": {
             "dazed": "Dazed",

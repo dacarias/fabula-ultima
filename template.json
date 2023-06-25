@@ -86,14 +86,15 @@
             "templates": [
                 "itemDescription"
             ],
-            "acc1": "MIG",
-            "acc2": "MIG",
-            "damage": "HR",
+            "acc1": "ins",
+            "acc2": "mig",
+            "accBonus": 0,
+            "damage": 0,
             "damageBonus": 0,
-            "damageType": "",
+            "damageType": "physical",
             "twoHanded": false,
-            "ranged": false,
-            "quality": "No Quality"
+            "range": "ranged",
+            "quality": "noQuality"
         }
     }
 }

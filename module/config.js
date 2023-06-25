@@ -46,11 +46,16 @@ fabult.itemFields = {
     "potency": "fabult.itemFields.potency",
     "progressRequired": "fabult.itemFields.progressRequired",
     "quality": "fabult.itemFields.quality",
-    "ranged": "fabult.itemFields.ranged",
+    "range": "fabult.itemFields.range",
     "skillLevel": "fabult.itemFields.skillLevel",
     "twoHanded": "fabult.itemFields.twoHanded",
     "type": "fabult.itemFields.type",
     "use": "fabult.itemFields.use"
+}
+
+fabult.range = {
+    "melee": "fabult.range.melee",
+    "ranged": "fabult.range.ranged"
 }
 
 fabult.status = {
