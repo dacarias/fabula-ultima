@@ -13,10 +13,17 @@ fabult.damageTypes = {
 }
 
 fabult.attributes = {
-    "dex": "fabult.attributes.dex",
-    "ins": "fabult.attributes.ins",
-    "mig": "fabult.attributes.mig",
-    "wlp": "fabult.attributes.wlp"
+    dex: "fabult.attributes.dex",
+    ins: "fabult.attributes.ins",
+    mig: "fabult.attributes.mig",
+    wlp: "fabult.attributes.wlp"
+}
+
+fabult.attributesAbbr = {
+    dex: "fabult.attributes.dexAbbr",
+    ins: "fabult.attributes.insAbbr",
+    mig: "fabult.attributes.migAbbr",
+    wlp: "fabult.attributes.wlpAbbr"
 }
 
 fabult.damageAffinities = {
