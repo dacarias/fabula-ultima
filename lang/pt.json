@@ -1,0 +1,24 @@
+{
+    "fabult": {
+        "attributes": {
+            "dex": "Destreza",
+            "ins": "Intuição",
+            "mig": "Poder",
+            "wlp": "Vontade"
+        },
+        "status": {
+            "dazed": "Confuso",
+            "enraged": "Em Fúria",
+            "poisoned": "Envenenado",
+            "shaken": "Surpreso",
+            "slow": "Lento",
+            "weak": "Fraco"
+        },
+        "quality": {
+            "noQuality": "Sem Qualidade",
+            "minor": "Menor",
+            "medium": "Média",
+            "major": "Maior"
+        }
+    }
+}
