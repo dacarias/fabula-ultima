@@ -1,10 +1,55 @@
 {
     "fabult": {
+        "area": {
+            "individual": "Individual",
+            "small": "Pequena",
+            "medium": "Média",
+            "large": "Grande",
+            "seeBelow": "Ver abaixo"
+        },
+        "armor": {
+            "armor": "Armadura",
+            "shield": "Escudo"
+        },
         "attributes": {
             "dex": "Destreza",
             "ins": "Intuição",
             "mig": "Poder",
             "wlp": "Vontade"
+        },
+        "damageTypes": {
+            "none": "",
+            "physical": "Físico",
+            "air": "Ar",
+            "bolt": "Bolt",
+            "dark": "Escuridão",
+            "earth": "Terra",
+            "fire": "Fogo",
+            "ice": "Gelo",
+            "light": "Luz",
+            "poison": "Veneno"
+        },
+
+        "itemFields": {
+            "acc1": "Acurácia",
+            "acc2": "Acurácia",
+            "area": "Área",
+            "damage": "Dano",
+            "defense": "Defesa",
+            "effect": "Efeito",
+            "flaw": "Falha",
+            "ipCost": "Custo de PI",
+            "mDefense": "Defesa Mágica",
+            "passengers": "Passageiros",
+            "path": "Caminho",
+            "potency": "Potência",
+            "progressRequired": "Progresso Exigido",
+            "quality": "Qualidade",
+            "ranged": "Ranged",
+            "skillLevel": "Nível da Habilidade",
+            "twoHanded": "Duas mãos",
+            "type": "Tipo",
+            "use": "Uso"
         },
         "status": {
             "dazed": "Confuso",
@@ -14,11 +59,27 @@
             "slow": "Lento",
             "weak": "Fraco"
         },
+        "transportPath": {
+            "terrestrial": "Terrestre",
+            "aquatic": "Aquático",
+            "submarine": "Submarino",
+            "flying": "Voador"
+        },
+        "transportType":{
+            "mount": "Montaria",
+            "vehicles": "Veículos"
+        },
         "quality": {
             "noQuality": "Sem Qualidade",
             "minor": "Menor",
             "medium": "Média",
             "major": "Maior"
+        },
+        "damageAffinities":{
+            "vulnerability": "Vulnerabilidade",
+            "resistance": "Resistência",
+            "immunity": "Imunidade",
+            "absorption": "Absorção"
         }
     }
 }

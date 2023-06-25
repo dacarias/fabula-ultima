@@ -24,6 +24,14 @@
                 "itemDescription"
             ]
         },
+        "arcanum": {
+            "templates": [
+                "itemDescription"
+            ],
+            "domains": "",
+            "merge": "",
+            "dismiss": ""
+        },
         "armor": {
             "templates": [
                 "itemDescription"
@@ -31,8 +39,14 @@
             "type": "armor",
             "quality": "No Quality",
             "defense": "DEX size",
+            "defBonus": 0,
             "mDefense": "INS size",
+            "mDefBonus": 0,
             "initiative": 0
+        },
+        "consumable": {
+            "ipCost": 0,
+            "effect": ""
         },
         "project": {
             "templates": [
@@ -50,6 +64,15 @@
             ],
             "skillLevel": 1
         },
+        "spell": {
+            "templates": [
+                "itemDescription"
+            ],
+            "offensiveSpell": false,
+            "mp": 0,
+            "target": "",
+            "duration": ""
+        },
         "transport": {
             "templates": [
                 "itemDescription"
@@ -65,9 +88,11 @@
             ],
             "acc1": "MIG",
             "acc2": "MIG",
-            "damage": "HR + 6 physical",
+            "damage": "HR",
+            "damageBonus": 0,
+            "damageType": "",
             "twoHanded": false,
-            "Ranged": false,
+            "ranged": false,
             "quality": "No Quality"
         }
     }
