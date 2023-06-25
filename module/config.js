@@ -12,6 +12,16 @@ fabult.damageTypes = {
     poison: "Poison"
 }
 
+fabult.attributes = {
+    "dex": "Dexterity",
+    "ins": "Insight",
+    "mig": "Might",
+    "wlp": "Willpower"
+}
+
+fabult.quality = {
+    "noQuality": "No Quality"
+}
 fabult.damageAffinities = {
     vulnerability: "Vulnerability",
     resistance: "Resistance",

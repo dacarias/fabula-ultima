@@ -1,8 +1,41 @@
 {
-    "Actor":{
+    "Actor": {
     
     },
-    "Item":{
-        "types":["weapon"]
-    }    
+    "Item": {
+        "types": [
+            "weapon",
+            "armor",
+            "accessory",
+            "project",
+            "skill",
+            "spell",
+            "arcanum",
+            "consumable"
+        ],
+        "templates": {
+            "itemDescription": {
+                "cost": 0,
+                "description": ""
+            }
+        },
+        "weapon": {
+            "templates": [
+                "itemDescription"
+            ],
+            "accuracy": "@stat1 + @stat2",
+            "damage": "@HR + @dmgBonus + @type",
+            "twoHanded": false,
+            "Ranged": false,
+            "quality": "noQuality"
+        },
+        "transport": {
+            "templates": [
+                "itemDescription"
+            ],
+            "type": "Mount",
+            "passengers": "One or two",
+            "distance": "x2"
+        }
+    }
 }
