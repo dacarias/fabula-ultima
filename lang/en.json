@@ -15,7 +15,11 @@
             "dex": "Dexterity",
             "ins": "Insight",
             "mig": "Might",
-            "wlp": "Willpower"
+            "wlp": "Willpower",
+            "dexAbbr": "Dex",
+            "insAbbr": "Ins",
+            "migAbbr": "Mig",
+            "wlpAbbr": "Wlp"
         },
         "damageTypes": {
             "none": "",
