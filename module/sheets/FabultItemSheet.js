@@ -4,10 +4,18 @@ export default class FabultItemSheet extends ItemSheet {
     }
 
     getData() {
-        const data = super.getData();
+        const baseData = super.getData();
 
-        data.config = CONFIG.fabult;
+        let sheetData = {
+            owner: this.item.isOwner,
+            editable: this.isEditable,
+            item: baseData.item,
+            data: baseData.item.data.data,
+            config: CONFIG.fabult
+        };
 
-        return data;
+        console.log(this);
+
+        return sheetData;
     }
 }
