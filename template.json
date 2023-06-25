@@ -19,23 +19,42 @@
                 "description": ""
             }
         },
-        "weapon": {
+        "armor": {
             "templates": [
                 "itemDescription"
             ],
-            "accuracy": "@stat1 + @stat2",
-            "damage": "@HR + @dmgBonus + @type",
-            "twoHanded": false,
-            "Ranged": false,
-            "quality": "noQuality"
+            "type": "armor",
+            "quality": "No Quality",
+            "defense": "DEX size",
+            "mDefense": "INS size",
+            "initiative": 0
+        },
+        "project": {
+            "templates": [
+                "itemDescription"
+            ],
+            "potency": "major",
+            "area": "individual",
+            "use": "permanent"
         },
         "transport": {
             "templates": [
                 "itemDescription"
             ],
-            "type": "Mount",
+            "type": "mount",
+            "path": "terrestrial",
             "passengers": "One or two",
             "distance": "x2"
+        },
+        "weapon": {
+            "templates": [
+                "itemDescription"
+            ],
+            "accuracy": "MIG + MIG",
+            "damage": "HR + 6 physical",
+            "twoHanded": false,
+            "Ranged": false,
+            "quality": "No Quality"
         }
     }
 }
