@@ -17,7 +17,8 @@
             "mig": "Might",
             "wlp": "Willpower"
         },
-        "damageType": {
+        "damageTypes": {
+            "none": "",
             "physical": "Physical",
             "air": "Air",
             "bolt": "Bolt",
@@ -50,7 +51,15 @@
             "noQuality": "No Quality",
             "minor": "Minor",
             "medium": "Medium",
-            "major": "Major"
+            "major": "Major",
+            "light": "Light",
+            "poison": "Poison"
+        },
+        "damageAffinities":{
+            "vulnerability": "Vulnerability",
+            "resistance": "Resistance",
+            "immunity": "Immunity",
+            "absorption": "Absorption"
         }
     }
 }

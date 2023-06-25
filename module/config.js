@@ -1,5 +1,17 @@
 export const fabult = {};
 
+fabult.damageTypes = {
+    none: "",
+    physical: "Physical",
+    bolt: "Bolt",
+    dark: "Dark",
+    earth: "Earth",
+    fire: "Fire",
+    ice: "Ice",
+    light: "Liht",
+    poison: "Poison"
+}
+
 fabult.attributes = {
     "dex": "fabult.attributes.dex",
     "ins": "fabult.attributes.ins",
@@ -21,4 +33,11 @@ fabult.quality = {
     "minor": "fabult.quality.minor",
     "medium": "fabult.quality.medium",
     "major": "fabult.quality.major"
+}
+
+fabult.damageAffinities = {
+    vulnerability: "Vulnerability",
+    resistance: "Resistance",
+    immunity: "Immunity",
+    absorption: "Absorption"
 }
