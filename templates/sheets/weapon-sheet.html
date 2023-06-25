@@ -13,7 +13,7 @@
                 <th>{{localize "fabult.itemFields.range"}}</th>
             </tr>
             <tr>
-                <td><input type="text" name="system.cost" value="{{systemData.cost}}" data-dtype="Number" />
+                <td><input type="number" name="system.cost" value="{{systemData.cost}}" />
                 <td style="text-align:center;">
                     <select name="system.acc1">
                         {{#select systemData.acc1}}
@@ -31,12 +31,12 @@
                         {{/select}}
                     </select>
                     +
-                    <input style="width:20%;" type="text" name="item-accBonus" value="{{item.system.accBonus}}" data-dtype="Number" />
+                    <input style="width:20%;" type="number" name="system.accBonus" value="{{systemData.accBonus}}" />
                 </td>
-                <td><input type="text" name="item.damage" value="{{item.system.damage}}" data-dtype="Number" />
-                <td style="text-align:center;"><input name="item.twoHanded" type="checkbox" {{checked item.system.twoHanded}} />
-                <td><select name="item.range">
-                    {{#select item.system.range}}
+                <td style="text-align:center;">[ HR + <input style="width:10%;" type="number" name="system.damage" value="{{systemData.damage}}" /> ] {{systemData.damageType}}
+                <td style="text-align:center;"><input name="system.twoHanded" type="checkbox" {{checked systemData.twoHanded}} />
+                <td><select name="system.range">
+                    {{#select systemData.range}}
                     {{#each config.range as |name type|}}
                     <option value="{{type}}">{{localize name}}</option>
                     {{/each}}
@@ -45,6 +45,6 @@
                 </td>
             </tr>
         </table>
-        <textarea name="item.description">{{item.system.description}}</textarea>
+        <textarea name="system.description">{{systemData.description}}</textarea>
     </div>
 </form>
